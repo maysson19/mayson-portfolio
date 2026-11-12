@@ -1,0 +1,45 @@
+{
+  "name": "ميسون سعيد شعبان",
+  "title": "مطورة Full Stack بلغة Java",
+  "location": "القاهرة، مصر",
+  "summary": "بعمل برمجيات للشركات في مجال الاتصالات والفوترة باستخدام Java وSpring Boot وAngular وJSF. شغلي بيشمل الخدمات الخلفية وربط الـ APIs وتخصيص JasperReports واختبار الوحدات، وكمان درّست Java وSpring Boot للطلاب.",
+  "labels": { "experience": "الخبرات", "skills": "المهارات", "education": "التعليم", "languages": "اللغات", "contact": "تواصل معايا", "name": "اسمك", "email": "بريدك الإلكتروني", "message": "رسالتك", "send": "ابعت الرسالة", "sending": "جاري الإرسال...", "ok": "الرسالة اتبعتت. شكرًا ليك!", "error": "الرسالة ماتبعتتش. راجع البيانات وحاول تاني.", "switch": "English" },
+  "links": [
+    { "label": "البريد", "url": "mailto:maysonsaidshaaban@gmail.com" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/mayson-said-shaaban-68189b253/" },
+    { "label": "GitHub", "url": "https://github.com/maysson19" }
+  ],
+  "experience": [
+    { "role": "مطورة Full Stack", "company": "NTG Clarity", "period": "من 08/2024", "points": [
+      "اشتغلت على نظام الفوترة IQ Billing System.",
+      "أعدت تصميم قوالب الفواتير بـ JasperReports وربطتها ببيانات من استعلامي SQL.",
+      "بنيت وربطت RESTful APIs في تطبيق Radius.",
+      "كتبت اختبارات وحدات لطبقات الخدمات الأساسية بـ JUnit وMockito.",
+      "حللت مشاكل الـ endpoints أثناء اختبار الـ API في Postman." ] },
+    { "role": "مطورة Frontend", "company": "Jawwy (stc، السعودية)", "period": "مشروع", "points": [
+      "شاركت في تطوير وتحديث تطبيق Jawwy، منصة اتصالات رقمية تابعة لـ Saudi Telecom Company.",
+      "بنيت واجهات متجاوبة بـ Angular 20 وحدّثت مكونات موجودة.",
+      "ربطت الـ APIs مع فرق الـ Backend وركزت على الأداء وسهولة الصيانة." ] },
+    { "role": "مطورة Frontend", "company": "Ooredoo", "period": "", "points": [
+      "أصلحت مشاكل معقدة في الواجهة والوظائف بنظام اتصالات مبني بـ JSF في موديولات Site وEquipment وIP وNetwork وPhysical Wiring.",
+      "حللت مشاكل التنقل والنوافذ المنبثقة والمكونات المفقودة لتثبيت سير العمل للمستخدمين." ] },
+    { "role": "مشروع Computer Vision", "company": "Roboflow", "period": "", "points": [
+      "كونت dataset من 103 صورة وعملت label للأرقام داخل العدادات لتدريب النموذج." ] },
+    { "role": "دعم فني", "company": "NIS (Ooredoo وAsiacell)", "period": "", "points": [
+      "تتبعت الأخطاء وراقبت عمل الأنظمة وتعاونت مع الفرق التقنية لحل المشاكل المبلّغ عنها." ] },
+    { "role": "دعم فني", "company": "Awaser", "period": "", "points": [
+      "فحصت أخطاء التطبيق وتابعت المشاكل للحفاظ على استقرار النظام." ] }
+  ],
+  "skills": [
+    { "group": "Java", "items": ["Core Java", "OOP", "Collections", "Multithreading", "Stream API", "AOP", "Caching"] },
+    { "group": "الفريمورك", "items": ["Spring Boot", "Spring MVC", "Spring Security", "Spring Data JPA", "Spring Batch", "Angular", "JSF", "REST APIs", "Maven"] },
+    { "group": "الويب", "items": ["HTML5", "CSS3", "JavaScript (ES6+)", "TypeScript", "واجهات متجاوبة", "تنفيذ تصميمات Figma"] },
+    { "group": "البيانات والاختبار", "items": ["MySQL", "PostgreSQL", "ERD", "JUnit", "Mockito", "JasperReports"] },
+    { "group": "الأدوات", "items": ["Git", "GitLab", "GitHub", "IntelliJ IDEA", "STS", "VS Code", "Postman", "DBeaver"] }
+  ],
+  "education": [
+    { "title": "بكالوريوس نظم المعلومات الإدارية والحاسبات", "place": "HICMIS", "period": "2024 - الآن" },
+    { "title": "دبلوم ثانوي، تكنولوجيا 5 سنوات (نظام P-Tech بالتعاون مع IBM)", "place": "I-Tech School", "period": "2019 - 2024" }
+  ],
+  "languages": ["العربية: لغة أم", "الإنجليزية: جيد"]
+}

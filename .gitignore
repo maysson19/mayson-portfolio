@@ -1,0 +1,10 @@
+node_modules/
+dist/
+.angular/
+target/
+data/
+*.log
+.idea/
+.vscode/
+backup-before-projects/
+add-project.ps1

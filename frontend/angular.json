@@ -1,0 +1,26 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "projects": {
+    "portfolio": {
+      "projectType": "application",
+      "root": "", "sourceRoot": "src", "prefix": "app",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:application",
+          "options": { "browser": "src/main.ts", "index": "src/index.html", "styles": ["src/styles.css"], "assets": [{ "glob": "**/*", "input": "public" }], "tsConfig": "tsconfig.json", "polyfills": ["zone.js"] },
+          "configurations": { "production": { "outputHashing": "all" }, "development": { "optimization": false, "sourceMap": true } },
+          "defaultConfiguration": "production"
+        },
+        "serve": {
+          "builder": "@angular/build:dev-server",
+          "configurations": { "production": { "buildTarget": "portfolio:build:production" }, "development": { "buildTarget": "portfolio:build:development" } },
+          "defaultConfiguration": "development"
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "d6f82eb8-c958-4a63-846e-34e393694a2f"
+  }
+}

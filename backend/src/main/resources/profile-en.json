@@ -1,0 +1,195 @@
+{
+    "name":  "Mayson Said Shaaban",
+    "title":  "Full Stack Java Developer",
+    "location":  "Cairo, Egypt",
+    "summary":  "I build enterprise software for telecom and billing systems with Java, Spring Boot, Angular and JSF. I work on backend services, API integration, JasperReports and unit testing, and I have also taught Java and Spring Boot to students.",
+    "labels":  {
+                   "experience":  "Experience",
+                   "skills":  "Skills",
+                   "education":  "Education",
+                   "languages":  "Languages",
+                   "contact":  "Get in touch",
+                   "name":  "Your name",
+                   "email":  "Your email",
+                   "message":  "Your message",
+                   "send":  "Send message",
+                   "sending":  "Sending...",
+                   "ok":  "Message sent. Thank you!",
+                   "error":  "Could not send the message. Check the fields and try again.",
+                   "switch":  "العربية"
+               },
+    "links":  [
+                  {
+                      "label":  "Email",
+                      "url":  "mailto:maysonsaidshaaban@gmail.com"
+                  },
+                  {
+                      "label":  "LinkedIn",
+                      "url":  "https://www.linkedin.com/in/mayson-said-shaaban-68189b253/"
+                  },
+                  {
+                      "label":  "GitHub",
+                      "url":  "https://github.com/maysson19"
+                  }
+              ],
+    "experience":  [
+                       {
+                           "role":  "Full Stack Developer",
+                           "company":  "NTG Clarity",
+                           "period":  "Since 08/2024",
+                           "points":  [
+                                          "Worked on the IQ Billing System.",
+                                          "Redesigned invoice templates in JasperReports with data from two SQL queries.",
+                                          "Built and integrated RESTful APIs in the Radius application.",
+                                          "Wrote unit tests for key service layers with JUnit and Mockito.",
+                                          "Debugged endpoint issues during API testing in Postman."
+                                      ]
+                       },
+                       {
+                           "role":  "Frontend Developer",
+                           "company":  "Jawwy (stc, Saudi Arabia)",
+                           "period":  "Project-based",
+                           "points":  [
+                                          "Revamped the Jawwy web application, a digital telecom platform by Saudi Telecom Company.",
+                                          "Built responsive interfaces with Angular 20 and modernized existing components.",
+                                          "Integrated APIs with backend teams and focused on performance and maintainability."
+                                      ]
+                       },
+                       {
+                           "role":  "Frontend Developer",
+                           "company":  "Ooredoo",
+                           "period":  "",
+                           "points":  [
+                                          "Fixed complex UI and functional issues in a JSF telecom system across the Site, Equipment, IP, Network and Physical Wiring modules.",
+                                          "Resolved navigation failures, broken dialogs and missing components to stabilize user workflows."
+                                      ]
+                       },
+                       {
+                           "role":  "Computer Vision Project",
+                           "company":  "Roboflow",
+                           "period":  "",
+                           "points":  [
+                                          "Created a dataset of 103 images and labeled the numbers inside meters for model training."
+                                      ]
+                       },
+                       {
+                           "role":  "Technical Support",
+                           "company":  "NIS (Ooredoo and Asiacell)",
+                           "period":  "",
+                           "points":  [
+                                          "Troubleshot errors, monitored system functionality and worked with technical teams to resolve reported issues."
+                                      ]
+                       },
+                       {
+                           "role":  "Technical Support",
+                           "company":  "Awaser",
+                           "period":  "",
+                           "points":  [
+                                          "Investigated application errors and followed up on issues to keep the system stable."
+                                      ]
+                       }
+                   ],
+    "skills":  [
+                   {
+                       "group":  "Java",
+                       "items":  [
+                                     "Core Java",
+                                     "OOP",
+                                     "Collections",
+                                     "Multithreading",
+                                     "Stream API",
+                                     "AOP",
+                                     "Caching"
+                                 ]
+                   },
+                   {
+                       "group":  "Frameworks",
+                       "items":  [
+                                     "Spring Boot",
+                                     "Spring MVC",
+                                     "Spring Security",
+                                     "Spring Data JPA",
+                                     "Spring Batch",
+                                     "Angular",
+                                     "JSF",
+                                     "REST APIs",
+                                     "Maven"
+                                 ]
+                   },
+                   {
+                       "group":  "Web",
+                       "items":  [
+                                     "HTML5",
+                                     "CSS3",
+                                     "JavaScript (ES6+)",
+                                     "TypeScript",
+                                     "Responsive UI",
+                                     "Figma to UI"
+                                 ]
+                   },
+                   {
+                       "group":  "Data and testing",
+                       "items":  [
+                                     "MySQL",
+                                     "PostgreSQL",
+                                     "ERD",
+                                     "JUnit",
+                                     "Mockito",
+                                     "JasperReports"
+                                 ]
+                   },
+                   {
+                       "group":  "Tools",
+                       "items":  [
+                                     "Git",
+                                     "GitLab",
+                                     "GitHub",
+                                     "IntelliJ IDEA",
+                                     "STS",
+                                     "VS Code",
+                                     "Postman",
+                                     "DBeaver"
+                                 ]
+                   }
+               ],
+    "education":  [
+                      {
+                          "title":  "Bachelor\u0027s degree, Computers and Management Information Systems",
+                          "place":  "HICMIS",
+                          "period":  "2024 - Present"
+                      },
+                      {
+                          "title":  "High School Diploma, 5-year technology program (P-Tech model with IBM)",
+                          "place":  "I-Tech School",
+                          "period":  "2019 - 2024"
+                      }
+                  ],
+    "languages":  [
+                      "Arabic: native",
+                      "English: good"
+                  ],
+    "projects":  [
+                     {
+                         "name":  "Library System",
+                         "description":  "A full stack library management system for admins, librarians and students, built with a Spring Boot REST API and an Angular frontend.",
+                         "highlights":  [
+                                            "Three roles with JWT authentication and protected routes",
+                                            "Borrow requests that librarians approve or reject with a reason",
+                                            "Business rules for loan limits, renewals, overdue books and login lockout",
+                                            "Live notification bell, dashboard, reports and Arabic/English interface",
+                                            "Unit tests with JUnit and Mockito"
+                                        ],
+                         "tech":  [
+                                      "Java",
+                                      "Spring Boot",
+                                      "Spring Security",
+                                      "JWT",
+                                      "PostgreSQL",
+                                      "Angular"
+                                  ],
+                         "image":  "projects/library.png",
+                         "github":  "https://github.com/maysson19/Library-System",
+                         "demo":  ""
+                     }
+                 ]
+}
