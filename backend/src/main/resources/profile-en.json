@@ -171,7 +171,7 @@
     "projects":  [
                      {
                          "name":  "Library System",
-                         "description":  "A full stack library management system for admins, librarians and students, built with a Spring Boot REST API and an Angular frontend.",
+                         "description":  "A full stack library management system for admins, librarians and students, built with a Spring Boot REST API and an Angular frontend. Demo login (librarian): librarian / lib123, test data only. The free demo may take a minute to wake up.",
                          "highlights":  [
                                             "Three roles with JWT authentication and protected routes",
                                             "Borrow requests that librarians approve or reject with a reason",
